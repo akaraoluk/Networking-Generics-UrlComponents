@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E4F13D73-75AE-4C4F-A523-BC0591118E5B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DDD40D33-C49E-472D-A36D-ADDFD1ABE240"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Codable-Networking/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "DDD40D33-C49E-472D-A36D-ADDFD1ABE240 - 8994e72473f31513"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in Codable_Networking.ViewController.fetchUserData(completion: (Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;Codable_Networking.UserModel&gt;&gt;, __C.NSError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Codable-Networking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdurrahman/Desktop/Codable-Networking/Codable-Networking/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1202">
+               </Location>
+               <Location
+                  uuid = "DDD40D33-C49E-472D-A36D-ADDFD1ABE240 - 8994e72473f31513"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in Codable_Networking.ViewController.fetchUserData(completion: (Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;Codable_Networking.UserModel&gt;&gt;, __C.NSError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Codable-Networking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdurrahman/Desktop/Codable-Networking/Codable-Networking/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "710">
+               </Location>
+               <Location
+                  uuid = "DDD40D33-C49E-472D-A36D-ADDFD1ABE240 - 8994e72473f31513"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in Codable_Networking.ViewController.fetchUserData(completion: (Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;Codable_Networking.UserModel&gt;&gt;, __C.NSError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Codable-Networking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdurrahman/Desktop/Codable-Networking/Codable-Networking/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1129">
+               </Location>
+               <Location
+                  uuid = "DDD40D33-C49E-472D-A36D-ADDFD1ABE240 - 8994e724738cebc6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in Codable_Networking.ViewController.fetchUserData(completion: (Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;Codable_Networking.UserModel&gt;&gt;, __C.NSError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Codable-Networking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdurrahman/Desktop/Codable-Networking/Codable-Networking/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "710">
+               </Location>
+               <Location
+                  uuid = "DDD40D33-C49E-472D-A36D-ADDFD1ABE240 - 8994e724738cebc6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in Codable_Networking.ViewController.fetchUserData(completion: (Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;Codable_Networking.UserModel&gt;&gt;, __C.NSError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Codable-Networking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdurrahman/Desktop/Codable-Networking/Codable-Networking/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "1129">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BBF03C25-A393-48E9-946B-0443B002AC44"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Codable-Networking/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "BBF03C25-A393-48E9-946B-0443B002AC44 - 8994e72473f31572"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in Codable_Networking.ViewController.fetchUserData(completion: (Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;Codable_Networking.UserModel&gt;&gt;, __C.NSError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Codable-Networking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdurrahman/Desktop/Codable-Networking/Codable-Networking/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1943">
+               </Location>
+               <Location
+                  uuid = "BBF03C25-A393-48E9-946B-0443B002AC44 - 8994e72473f31572"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in Codable_Networking.ViewController.fetchUserData(completion: (Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;Codable_Networking.UserModel&gt;&gt;, __C.NSError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Codable-Networking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdurrahman/Desktop/Codable-Networking/Codable-Networking/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1202">
+               </Location>
+               <Location
+                  uuid = "BBF03C25-A393-48E9-946B-0443B002AC44 - 8994e724738ceb25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in Codable_Networking.ViewController.fetchUserData(completion: (Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;Codable_Networking.UserModel&gt;&gt;, __C.NSError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Codable-Networking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdurrahman/Desktop/Codable-Networking/Codable-Networking/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "1202">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "202A0852-D619-4A5D-B8FC-24F50DEB32E4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Codable-Networking/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "202A0852-D619-4A5D-B8FC-24F50DEB32E4 - 8994e72473f31551"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in Codable_Networking.ViewController.fetchUserData(completion: (Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;Codable_Networking.UserModel&gt;&gt;, __C.NSError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Codable-Networking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdurrahman/Desktop/Codable-Networking/Codable-Networking/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "2240">
+               </Location>
+               <Location
+                  uuid = "202A0852-D619-4A5D-B8FC-24F50DEB32E4 - 8994e72473f31551"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in Codable_Networking.ViewController.fetchUserData(completion: (Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;Codable_Networking.UserModel&gt;&gt;, __C.NSError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Codable-Networking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdurrahman/Desktop/Codable-Networking/Codable-Networking/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1943">
+               </Location>
+               <Location
+                  uuid = "202A0852-D619-4A5D-B8FC-24F50DEB32E4 - 8994e724738ceb04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in Codable_Networking.ViewController.fetchUserData(completion: (Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;Codable_Networking.UserModel&gt;&gt;, __C.NSError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Codable-Networking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdurrahman/Desktop/Codable-Networking/Codable-Networking/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "1943">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD3DDE8D-C3BC-4BA2-9DAC-165E2C7BBFC4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Codable-Networking/Networking/Base/BaseAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "fetchData(target:responseClass:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
