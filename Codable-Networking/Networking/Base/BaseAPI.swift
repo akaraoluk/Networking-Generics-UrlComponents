@@ -23,26 +23,23 @@ class BaseAPI<T: TargetType> {
             }
             
             if statusCode == 200 {
-                // Successful Request
-                guard let jsonResponse = try? response.result.get() else {
-                    //ADD Custom Error
+                // Success
+                guard let responseData = response.data else {
                     completion(.failure(NSError()))
                     return
                 }
-                guard let theJSONData = try? JSONSerialization.data(withJSONObject: jsonResponse, options: []) else {
-                    //ADD Custom Error
-                    completion(.failure(NSError()))
-                    return
+                
+                do {
+                    let decoder = JSONDecoder()
+                    let responseObj = try decoder.decode(M.self, from: responseData)
+                    completion(.success(responseObj))
+                    
+                } catch let error {
+                    print(error)
+                    completion(.failure(NSError(domain: "com.yourapp.error", code: 1, userInfo: ["message": "JSON kod çözülürken hata oluştu"])))
                 }
-                guard let responseObj = try? JSONDecoder().decode(M.self, from: theJSONData) else {
-                    //ADD Custom Error
-                    completion(.failure(NSError()))
-                    return
-                }
-                completion(.success(responseObj))
                 
             } else {
-                // ADD Custom Error base on status code 404 / 401 /
                 completion(.failure(NSError()))
             }
         }
