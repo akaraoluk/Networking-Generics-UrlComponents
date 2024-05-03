@@ -17,15 +17,17 @@ class BaseAPI<T: TargetType> {
         AF.request(target.baseUrl + target.path, method: method, parameters: params.0, encoding: params.1, headers: headers).responseDecodable(of: M.self) { response in
             guard let statusCode = response.response?.statusCode else {
                 //ADD Custom Error
-                completion(.failure(NSError()))
+                let error = NSError(domain: target.baseUrl, code: 0, userInfo: [NSLocalizedDescriptionKey: ErrorMessage.genericError])
+                completion(.failure(error))
                 return
                 
             }
             
             if statusCode == 200 {
-                // Success
+                // Successful Request
                 guard let responseData = response.data else {
-                    completion(.failure(NSError()))
+                    let error = NSError(domain: target.baseUrl, code: statusCode, userInfo: [NSLocalizedDescriptionKey: ErrorMessage.genericError])
+                    completion(.failure(error))
                     return
                 }
                 
@@ -37,10 +39,19 @@ class BaseAPI<T: TargetType> {
                 } catch let error {
                     print(error)
                     completion(.failure(NSError(domain: "com.yourapp.error", code: 1, userInfo: ["message": "JSON kod çözülürken hata oluştu"])))
+                    let error = NSError(domain: target.baseUrl, code: statusCode, userInfo: [NSLocalizedDescriptionKey: ErrorMessage.genericError])
+                    completion(.failure(error))
                 }
                 
             } else {
+                // Add Custom Error Base on Status Code 404 / 401
+                // Error Parsing For The Error Message From the Back-End
+                let message = "Error Message Parsed From Back-End"
                 completion(.failure(NSError()))
+                let error = NSError(domain: "HTTPError", code: statusCode, userInfo: nil)
+                
+                let error2 = NSError(domain: target.baseUrl, code: statusCode, userInfo: [NSLocalizedDescriptionKey: message])
+                completion(.failure(error2))
             }
         }
         

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15718C372BE544FE007A3474 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15718C362BE544FE007A3474 /* Constants.swift */; };
 		15E2AFE82BDE7C0500390C9C /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2AFE72BDE7C0500390C9C /* TargetType.swift */; };
 		15E2AFEA2BDE7FD000390C9C /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2AFE92BDE7FD000390C9C /* BaseAPI.swift */; };
 		15E2AFED2BDE881200390C9C /* UsersNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2AFEC2BDE881200390C9C /* UsersNetworking.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15718C362BE544FE007A3474 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		15E2AFE72BDE7C0500390C9C /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
 		15E2AFE92BDE7FD000390C9C /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
 		15E2AFEC2BDE881200390C9C /* UsersNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersNetworking.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				15E2F3E02BD2A7EE0077BFD7 /* Assets.xcassets */,
 				15E2F3E22BD2A7EF0077BFD7 /* LaunchScreen.storyboard */,
 				15E2F3E52BD2A7EF0077BFD7 /* Info.plist */,
+				15718C362BE544FE007A3474 /* Constants.swift */,
 			);
 			path = "Codable-Networking";
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				15E2F3D82BD2A7EA0077BFD7 /* AppDelegate.swift in Sources */,
 				15E2F3DA2BD2A7EA0077BFD7 /* SceneDelegate.swift in Sources */,
 				15E2AFED2BDE881200390C9C /* UsersNetworking.swift in Sources */,
+				15718C372BE544FE007A3474 /* Constants.swift in Sources */,
 				15E2AFEA2BDE7FD000390C9C /* BaseAPI.swift in Sources */,
 				15E2AFEF2BDE8B1F00390C9C /* UsersAPI.swift in Sources */,
 				15E2AFF42BDE8C1300390C9C /* UserModel.swift in Sources */,

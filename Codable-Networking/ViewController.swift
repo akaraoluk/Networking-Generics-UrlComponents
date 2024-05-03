@@ -25,7 +25,7 @@ class ViewController: UIViewController {
                     print(user.firtsName)
                 }
             case .failure(let error):
-                print(error.localizedDescription)
+                print(error.userInfo[NSLocalizedDescriptionKey] as? String)
             }
         }
     }
