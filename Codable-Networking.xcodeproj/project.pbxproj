@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		15718C372BE544FE007A3474 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15718C362BE544FE007A3474 /* Constants.swift */; };
+		15718C392BE556A1007A3474 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15718C382BE556A1007A3474 /* BaseResponse.swift */; };
 		15E2AFE82BDE7C0500390C9C /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2AFE72BDE7C0500390C9C /* TargetType.swift */; };
 		15E2AFEA2BDE7FD000390C9C /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2AFE92BDE7FD000390C9C /* BaseAPI.swift */; };
 		15E2AFED2BDE881200390C9C /* UsersNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2AFEC2BDE881200390C9C /* UsersNetworking.swift */; };
 		15E2AFEF2BDE8B1F00390C9C /* UsersAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2AFEE2BDE8B1F00390C9C /* UsersAPI.swift */; };
-		15E2AFF12BDE8BCC00390C9C /* UsersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2AFF02BDE8BCC00390C9C /* UsersResponse.swift */; };
 		15E2AFF42BDE8C1300390C9C /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2AFF32BDE8C1300390C9C /* UserModel.swift */; };
 		15E2F3D82BD2A7EA0077BFD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2F3D72BD2A7EA0077BFD7 /* AppDelegate.swift */; };
 		15E2F3DA2BD2A7EA0077BFD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2F3D92BD2A7EA0077BFD7 /* SceneDelegate.swift */; };
@@ -25,11 +25,11 @@
 
 /* Begin PBXFileReference section */
 		15718C362BE544FE007A3474 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		15718C382BE556A1007A3474 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
 		15E2AFE72BDE7C0500390C9C /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
 		15E2AFE92BDE7FD000390C9C /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
 		15E2AFEC2BDE881200390C9C /* UsersNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersNetworking.swift; sourceTree = "<group>"; };
 		15E2AFEE2BDE8B1F00390C9C /* UsersAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersAPI.swift; sourceTree = "<group>"; };
-		15E2AFF02BDE8BCC00390C9C /* UsersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersResponse.swift; sourceTree = "<group>"; };
 		15E2AFF32BDE8C1300390C9C /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		15E2F3D42BD2A7EA0077BFD7 /* Codable-Networking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Codable-Networking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E2F3D72BD2A7EA0077BFD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +67,7 @@
 			children = (
 				15E2AFE72BDE7C0500390C9C /* TargetType.swift */,
 				15E2AFE92BDE7FD000390C9C /* BaseAPI.swift */,
+				15718C382BE556A1007A3474 /* BaseResponse.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -76,7 +77,6 @@
 			children = (
 				15E2AFEC2BDE881200390C9C /* UsersNetworking.swift */,
 				15E2AFEE2BDE8B1F00390C9C /* UsersAPI.swift */,
-				15E2AFF02BDE8BCC00390C9C /* UsersResponse.swift */,
 			);
 			path = Users;
 			sourceTree = "<group>";
@@ -208,7 +208,7 @@
 				15E2AFEA2BDE7FD000390C9C /* BaseAPI.swift in Sources */,
 				15E2AFEF2BDE8B1F00390C9C /* UsersAPI.swift in Sources */,
 				15E2AFF42BDE8C1300390C9C /* UserModel.swift in Sources */,
-				15E2AFF12BDE8BCC00390C9C /* UsersResponse.swift in Sources */,
+				15718C392BE556A1007A3474 /* BaseResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
